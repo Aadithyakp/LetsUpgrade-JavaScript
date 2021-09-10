@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Go to console</h1>
+    <script>
+         var numOne=20;
+        var numTwo=10;
+        console.log("First and Second number is " +numOne+ " and "+numTwo)
+        add = numOne+numTwo;
+        sub = numOne-numTwo;
+        div = numOne/numTwo;
+        mul = numOne*numTwo;
+        modulus = numOne%numTwo;
+        if(numOne!=numTwo)
+        {
+        if(numOne>numTwo)
+        console.log(numOne+ " is the largest")
+        else
+        console.log(numTwo+ " is the largest")
+        }
+        else{
+            console.log("Both numbers are equal")
+        }
+        console.log("Addition = "+add)
+        console.log("Substraction = "+sub)
+        console.log("Division = "+div)
+        console.log("Multiplication = "+mul)
+        console.log("Remainder = "+modulus)
+    </script>
+</body>
+</html>
